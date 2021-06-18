@@ -1,0 +1,222 @@
+<!DOCTYPE html>
+<html lang="ko">
+	<head>
+		<script data-ad-client="ca-pub-4284192456763993" async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js"></script>
+		<meta charset="UTF-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<!-- Bootstrap CSS -->
+		<link
+			href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css"
+			rel="stylesheet"
+			integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x"
+			crossorigin="anonymous"
+		/>
+		<link rel="stylesheet" href="css/style.css" />
+		<link href="https://fonts.googleapis.com/css2?family=Jua&display=swap" rel="stylesheet" />
+		<title>MBTI 최고의 조합</title>
+	</head>
+	
+	<body style="z-index: 1;">
+		
+		<!-- layer popup-->
+		<section id="layer" style="display: none; z-index: 2;">
+		<a href="#" class="close">다시하기</a>
+		</section>
+		<!-- //layer popup-->
+		<nav class="navbar navbar-expand-lg navbar-light nav-distance">
+			<div class="container-fluid">
+				<a class="navbar-brand" href="#">MBTI 최고의 조합</a>
+				<button
+					class="navbar-toggler"
+					type="button"
+					data-bs-toggle="collapse"
+					data-bs-target="#navbarSupportedContent"
+					aria-controls="navbarSupportedContent"
+					aria-expanded="false"
+					aria-label="Toggle navigation"
+				>
+					<span class="navbar-toggler-icon"></span>
+				</button>
+				<div class="collapse navbar-collapse" id="navbarSupportedContent">
+					<ul class="navbar-nav me-auto mb-2 mb-lg-0">
+						<li class="nav-item dropdown">
+							<a
+								class="nav-link dropdown-toggle"
+								href="#"
+								id="navbarDropdown"
+								role="button"
+								data-bs-toggle="dropdown"
+								aria-expanded="false"
+							>
+								다른 사이트
+							</a>
+							<ul class="dropdown-menu" aria-labelledby="navbarDropdown">
+								<li><a class="dropdown-item" href="https://mbtiscore.netlify.app/">MBTI 궁합점수 테스트</a></li>
+								<li><a class="dropdown-item" href="https://mbticombi.netlify.app/">MBTI 최고의 조합 테스트</a></li>				
+							</ul>
+						</li>
+					</ul>
+				</div>
+			</div>
+		</nav>
+		<section class="banner">
+			배너
+		</section>
+
+		<section class="section">
+			<h1 class="title">MBTI 최고의 조합 테스트</h1>
+			<h2 class="subtitle">누가 들어오면 우리 모임의 MBTI 궁합점수가 최대가 될까?</h2>
+		</section>
+		<section class="mbti">
+			<div class="container mt-5 youtube-cover d-flex flex-row-reverse">
+				<a href="https://www.16personalities.com/ko" target="_blank" class="mbti-link"
+					>MBTI검사하러가기</a
+				>
+			</div>
+		</section>
+		<section class="container mt-3 contents">
+			<section class="contents2">
+				<div id="howmany">
+					<h2>몇명인가요?</h2>
+					<select id="num" class="mt-1">
+						<option value="2">2명</option>
+						<option value="3">3명</option>
+						<option value="4">4명</option>
+						<option value="5">5명</option>
+					</select>
+					<button type="button" onclick="show();" class="mt-2">확인</button>
+				</div>
+
+				<div id="friend" style="display: none;">
+					<div id="f1" style="display: none;">
+						친구1:
+						<select id="mbti1">
+							<option value="0">infp</option>
+							<option value="2">infj</option>
+							<option value="6">intp</option>
+							<option value="4">intj</option>
+							<option value="8">isfp</option>
+							<option value="12">isfj</option>
+							<option value="10">istp</option>
+							<option value="14">istj</option>
+							<option value="1">enfp</option>
+							<option value="3">enfj</option>
+							<option value="7">entp</option>
+							<option value="5">entj</option>
+							<option value="9">esfp</option>
+							<option value="13">esfj</option>
+							<option value="11">estp</option>
+							<option value="15">estj</option>
+						</select>
+					</div>
+					<div id="f2" style="display: none;">
+						친구2:
+						<select id="mbti2">
+							<option value="0">infp</option>
+							<option value="2">infj</option>
+							<option value="6">intp</option>
+							<option value="4">intj</option>
+							<option value="8">isfp</option>
+							<option value="12">isfj</option>
+							<option value="10">istp</option>
+							<option value="14">istj</option>
+							<option value="1">enfp</option>
+							<option value="3">enfj</option>
+							<option value="7">entp</option>
+							<option value="5">entj</option>
+							<option value="9">esfp</option>
+							<option value="13">esfj</option>
+							<option value="11">estp</option>
+							<option value="15">estj</option>
+						</select>
+					</div>
+					<div id="f3" style="display: none;">
+						친구3:
+						<select id="mbti3">
+							<option value="0">infp</option>
+							<option value="2">infj</option>
+							<option value="6">intp</option>
+							<option value="4">intj</option>
+							<option value="8">isfp</option>
+							<option value="12">isfj</option>
+							<option value="10">istp</option>
+							<option value="14">istj</option>
+							<option value="1">enfp</option>
+							<option value="3">enfj</option>
+							<option value="7">entp</option>
+							<option value="5">entj</option>
+							<option value="9">esfp</option>
+							<option value="13">esfj</option>
+							<option value="11">estp</option>
+							<option value="15">estj</option>
+						</select>
+					</div>
+					<div id="f4" style="display: none;">
+						친구4:
+						<select id="mbti4">
+							<option value="0">infp</option>
+							<option value="2">infj</option>
+							<option value="6">intp</option>
+							<option value="4">intj</option>
+							<option value="8">isfp</option>
+							<option value="12">isfj</option>
+							<option value="10">istp</option>
+							<option value="14">istj</option>
+							<option value="1">enfp</option>
+							<option value="3">enfj</option>
+							<option value="7">entp</option>
+							<option value="5">entj</option>
+							<option value="9">esfp</option>
+							<option value="13">esfj</option>
+							<option value="11">estp</option>
+							<option value="15">estj</option>
+						</select>
+					</div>
+					<div id="f5" style="display: none;">
+						친구5:
+						<select id="mbti5">
+							<option value="0">infp</option>
+							<option value="2">infj</option>
+							<option value="6">intp</option>
+							<option value="4">intj</option>
+							<option value="8">isfp</option>
+							<option value="12">isfj</option>
+							<option value="10">istp</option>
+							<option value="14">istj</option>
+							<option value="1">enfp</option>
+							<option value="3">enfj</option>
+							<option value="7">entp</option>
+							<option value="5">entj</option>
+							<option value="9">esfp</option>
+							<option value="13">esfj</option>
+							<option value="11">estp</option>
+							<option value="15">estj</option>
+						</select>
+					</div>
+					
+					<div id="but" style="display: none;">
+						<button type="button" onclick="regist();">점수보기</button>
+					</div>
+					
+				</div>
+				<div id="result"></div>
+				<button type="button" onclick="reload();" style="display: none;" class="reset">
+					다시하기
+				</button>
+			</section>
+		</section>
+		<section class="footer">
+			푸터
+		</section>
+		
+
+		<script
+			src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js"
+			integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4"
+			crossorigin="anonymous"
+		></script>
+
+		<script src="https://code.jquery.com/jquery-2.2.1.min.js"></script>
+		<script src="js/mbticb.js"></script>
+	</body>
+</html>
