@@ -40,6 +40,7 @@ body {font-family: Jua; background-color: #ffffff;}
 .reset {position: absolute; border: 2px solid green; font-size: 1.5rem; padding: 5px; width: 90%; height: 50%; top: 200%; right: 3%;}
 .footer {margin: 0 auto; background-color:#666; text-align:center;}
 
-#layer {position: fixed; margin:30% 10% 10% 10%; width: 80%; height: 60%; border: 10px solid green; box-shadow: 3px 3px 10px rgba(0,0,0,0.4); background: #fff; } 
+#layer {position: fixed; margin:30% 10% 10% 10%; width: 80%; height: 60%; border: 10px solid green; box-shadow: 3px 3px 10px rgba(0,0,0,0.4); background:#fff;}
+#layer .ad {width: 90%; height: 80%; margin: 0 auto;}
 #layer .close {position: absolute; right: 45%; bottom: 5%; ; background: green; border: 2px solid green; padding: 1px 2px; color: #fff ; text-decoration:none; font-size: 1.5rem;}
 #layer .close:hover {text-decoration: underline;}
