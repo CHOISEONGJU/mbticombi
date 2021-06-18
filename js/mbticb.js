@@ -156,7 +156,7 @@ function regist() {
 		$('#friend').hide();
 		$('.reset').show();
 		var myString1 = arrValues.toString();
-		document.getElementById('result').innerText = myString1;
+		document.getElementById('result').innerText = myString1 + '\n' +Math.ceil(score_max)+"점!!";
 		
 		
 	} else if (number2 == 4) {
@@ -190,7 +190,7 @@ function regist() {
 		$('#friend').hide();
 		$('.reset').show();
 		var myString1 = arrValues.toString();
-		document.getElementById('result').innerText = myString1;
+		document.getElementById('result').innerText = myString1 + '\n' +Math.ceil(score_max)+"점!!";
 		
 	} else {
 		let mbti_1 = document.getElementById('mbti1').value;
@@ -224,7 +224,7 @@ function regist() {
 		$('#friend').hide();
 		$('.reset').show();
 		var myString1 = arrValues.toString();
-		document.getElementById('result').innerText = myString1;
+		document.getElementById('result').innerText = myString1 + '\n' +Math.ceil(score_max)+"점!!";
 	}
 
 	$('.reset').click(function (e) {
