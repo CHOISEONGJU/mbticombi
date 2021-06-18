@@ -37,7 +37,7 @@ body {font-family: Jua; background-color: #ffffff;}
 #friend {margin: 0 auto;}
 #friend > div {margin: 10px; font-size: 1.5rem;} 
 #result {position: relative; font-size: 3rem;}
-.reset {position: absolute; border: 2px solid green; font-size: 1.5rem; padding: 5px; width: 90%; height: 50%; top: 200%; right: 3%;}
+.reset {position: absolute; border: 2px solid green; font-size: 1.5rem; padding: 5px; bottom:-100px; right:70px;}
 .footer {margin: 0 auto; background-color:#666; text-align:center;}
 
 #layer {position: fixed; margin:30% 10% 10% 10%; width: 80%; height: 60%; border: 10px solid green; box-shadow: 3px 3px 10px rgba(0,0,0,0.4); background:#fff;}
